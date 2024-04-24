@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Enlaces a las fuentes de Google y Font Awesome -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+    <style>
+        /* Estilo para agregar espacio entre los párrafos */
+        p {
+            margin-bottom: 30px; /* Ajusta este valor según tu preferencia */
+        }
+    </style>
+</head>
+<body>
+
+<div class="top">
+    <h1>404</h1>
+    <h3> Esta Página No Existe</h3>
+</div>
+
+<div class="container">
+    <div class="ghost">
+        <div class="eye"></div>
+        <div class="eye-right"></div>
+        <div class="mouth"></div>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    <div class="shadow"></div>
+</div>
+
+<div class="bottom">
+    <p>Booo, Hay un fantasma aqui, tiene hambre y al parecer esta página murió por falta de presupuesto.</p>
+    <p>R.I.P por andar de chistosito </p>
+    <div class="button">
+        <button class="btn" id="salirBtn">Salir</button>
+    </div>
+</div>
+
+<!-- Script para redirigir al usuario a FLORES.html -->
+<script>
+    // Obtén el botón de salir
+    var salirBtn = document.getElementById('salirBtn');
+
+    // Agrega un evento de clic al botón
+    salirBtn.addEventListener('click', function() {
+        // Redirige al usuario a FLORES.html
+        window.location.href = 'index-florecita.html';
+    });
+</script>
+
+</body>
+</html>
